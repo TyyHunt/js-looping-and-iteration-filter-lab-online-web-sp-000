@@ -12,7 +12,7 @@ function fuzzyMatch(obj, name) {
 }
 
 function matchName(obj, name) {
-  return obj.filter(function (description) {
-    return obj.description.toLowerCase() === name.toLowerCase()
+  return obj.filter(function (data) {
+    return data.name.toLowerCase() === name.toLowerCase()
   })
 }
