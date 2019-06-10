@@ -10,3 +10,9 @@ function fuzzyMatch(obj, name) {
     return description[0].toLowerCase() === name[0].toLowerCase()
   })
 }
+
+function matchName(obj, name) {
+  return obj.filter(function (description) {
+    
+  })
+}
