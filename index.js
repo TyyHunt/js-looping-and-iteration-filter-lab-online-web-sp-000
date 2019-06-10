@@ -13,6 +13,6 @@ function fuzzyMatch(obj, name) {
 
 function matchName(obj, name) {
   return obj.filter(function (description) {
-    
+
   })
 }
